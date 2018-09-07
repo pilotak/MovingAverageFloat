@@ -1,4 +1,4 @@
-#include "MovingAverageFloat.h"
+#include "MovingAverageFloat.h"  // https://github.com/pilotak/MovingAverageFloat
 
 // Buffer will be 16 samples long, it will take 16 * sizeof(float) = 64 bytes of RAM
 MovingAverageFloat <16> filter;
