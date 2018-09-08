@@ -1,5 +1,5 @@
-# Moving average filter for Float numbers
-Moving average buffer filter for Mbed and Arduino
+# Moving average filter for float numbers
+[![Build Status](https://travis-ci.org/pilotak/MovingAverageFloat.svg?branch=master)](https://travis-ci.org/pilotak/MovingAverageFloat)
 
 # Mbed example
 ```cpp
