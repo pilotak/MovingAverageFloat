@@ -1,7 +1,7 @@
 # Moving average filter for float numbers
 [![Build Status](https://travis-ci.org/pilotak/MovingAverageFloat.svg?branch=master)](https://travis-ci.org/pilotak/MovingAverageFloat)
 
-# Mbed example
+## Mbed example
 ```cpp
 #include "mbed.h"
 #include "MovingAverageFloat.h"
@@ -18,7 +18,7 @@ int main() {
     return 0;
 }
 ```
-# Arduino example
+## Arduino example
 ```cpp
 #include "MovingAverageFloat.h"
 
@@ -42,7 +42,7 @@ void loop(){
 }
 ```
 
-## Output
+### Output
 > result: 1.50
 > 
 > result: 1.56
