@@ -81,7 +81,7 @@ float MovingAverageFloat<N>::add(float value) {
   } else {
     _sum = _sum - _buffer[_next] + value;
     _buffer[_next] = value;
-    _next = (_next + 1) & (N - 1);
+    _next = (_next + 1) % N;
   }
 
   _result = _sum / static_cast<float>(N);
